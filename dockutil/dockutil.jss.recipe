@@ -34,8 +34,6 @@ https://github.com/homebysix/auto-update-magic</string>
         <string>%NAME%-update-smart</string>
         <key>GROUP_TEMPLATE</key>
         <string>%RECIPE_DIR%/SmartGroupTemplate.xml</string>
-        <key>version</key>
-        <string>%version%</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.2.9</string>
@@ -60,6 +58,8 @@ https://github.com/homebysix/auto-update-magic</string>
 				<string>%DESCRIPTION%</string>
 				<key>self_service_icon</key>
 				<string>%ICON%</string>
+                <key>version</key>
+                <string>%version%</string>
 			</dict>
 			<key>Processor</key>
 			<string>JSSImporter</string>
