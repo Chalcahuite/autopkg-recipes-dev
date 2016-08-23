@@ -4,10 +4,10 @@
 <dict>
 	<key>Comment</key>
 	<string>
-This AutoPkg recipe was created using JSSRecipeCreator: 
+This AutoPkg recipe was created using JSSRecipeCreator:
 https://github.com/sheagcraig/JSSRecipeCreator
 
-It is meant to be used with JSSImporter: 
+It is meant to be used with JSSImporter:
 https://github.com/sheagcraig/JSSImporter
 
 For tips on integrating JSSImporter into your Casper environment, check out Auto Update Magic:
@@ -39,7 +39,7 @@ http://msdn.microsoft.com/en-us/library/ee825488(v=cs.20).aspx for a table of Cu
 		<string>%RECIPE_DIR%/PolicyTemplate.xml</string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>0.3.1</string>
+	<string>0.6.0</string>
 	<key>ParentRecipe</key>
 	<string>com.github.arubdesu.pkg.LyncInstaller</string>
 	<key>Process</key>
@@ -53,7 +53,7 @@ http://msdn.microsoft.com/en-us/library/ee825488(v=cs.20).aspx for a table of Cu
 				<array>
                     <dict>
 						<key>name</key>
-						<string>Testing</string>
+						<string>%GROUP_NAME%</string>
 						<key>smart</key>
 						<true/>
 						<key>template_path</key>
