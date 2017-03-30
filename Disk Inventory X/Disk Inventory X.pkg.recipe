@@ -19,6 +19,8 @@
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
 	<string>com.github.chalcahuite.download.DiskInventoryX</string>
+    <key>app_path</key>
+    <string>%RECIPE_CACHE_DIR%/Downloads/%NAME%.dmg</string>
 	<key>Process</key>
 	<array>
 		<dict>
