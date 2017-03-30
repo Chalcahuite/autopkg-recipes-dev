@@ -14,13 +14,13 @@
 		<string>com.derlien.DiskInventoryX</string>
 		<key>NAME</key>
 		<string>Disk Inventory X</string>
+        <key>version</key>
+        <string>1.0.0</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
 	<string>com.github.chalcahuite.download.DiskInventoryX</string>
-    <key>version</key>
-    <string>1.0.0</string>
 	<key>Process</key>
 	<array>
 		<dict>
