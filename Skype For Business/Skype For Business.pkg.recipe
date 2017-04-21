@@ -18,7 +18,7 @@
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.chalcahuite.download.SkypeForBusiness</string>
+	<string>com.github.autopkg.download.SkypeForBusiness</string>
 	<key>Process</key>
 	<array>
 		<dict>
