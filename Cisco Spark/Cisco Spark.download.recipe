@@ -13,7 +13,7 @@
 		<key>DOWNLOAD_URL</key>
 		<string>https://download.ciscospark.com/mac/CiscoSpark.dmg</string>
 		<key>NAME</key>
-		<string>Cisco Spark</string>
+		<string>CiscoSpark</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
