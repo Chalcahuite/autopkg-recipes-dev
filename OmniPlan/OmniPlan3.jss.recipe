@@ -4,10 +4,10 @@
 <dict>
 	<key>Comment</key>
 	<string>
-This AutoPkg recipe was created using JSSRecipeCreator: 
+This AutoPkg recipe was created using JSSRecipeCreator:
 https://github.com/sheagcraig/JSSRecipeCreator
 
-It is meant to be used with JSSImporter: 
+It is meant to be used with JSSImporter:
 https://github.com/sheagcraig/JSSImporter
 
 For tips on integrating JSSImporter into your Casper environment, check out Auto Update Magic:
