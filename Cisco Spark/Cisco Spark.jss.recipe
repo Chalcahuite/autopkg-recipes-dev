@@ -44,10 +44,6 @@ https://github.com/sheagcraig/JSSImporter</string>
 				<key>groups</key>
 				<array>
 					<dict>
-						<key>name</key>
-						<string>Testing</string>
-						<key>smart</key>
-						<true/>
 						<key>template_path</key>
 						<string>%RECIPE_DIR%/SmartGroupTemplate.xml</string>
 					</dict>
