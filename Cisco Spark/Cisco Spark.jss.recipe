@@ -28,7 +28,7 @@ https://github.com/sheagcraig/JSSImporter</string>
 		<key>POLICY_TEMPLATE</key>
 		<string></string>
 		<key>pkg_path</key>
-		<string>%pkg_path%</string>
+		<string></string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
