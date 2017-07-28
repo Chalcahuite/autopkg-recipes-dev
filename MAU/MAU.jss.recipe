@@ -32,6 +32,8 @@ https://github.com/homebysix/auto-update-magic</string>
 		<string>%RECIPE_DIR%/PolicyTemplate.xml</string>
 		<key>pkg_path</key>
 		<string></string>
+		<key>expected_certsha</key>
+		<string></string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.4.1</string>
