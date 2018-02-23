@@ -19,17 +19,21 @@ https://github.com/homebysix/auto-update-magic</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
-		<string>Applications</string>
+		<string>Productivity</string>
 		<key>DESCRIPTION</key>
-		<string>Axure RP gives you the wireframing, prototyping and documentation tools needed to make informed design choices, persuade any skeptics, and document your design... and maybe win a few fans along the way. Choose the Standard edition for prototyping or go Pro to add documentation and collaboration features.</string>
+		<string>Axure RP Pro is a wireframing, rapid prototyping, documentation and specification software tool aimed at web and desktop applications. It offers drag and drop placement, resizing, and formatting of widgets.</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>%RECIPE_DIR%/SmartGroupTemplate.xml</string>
 		<key>ICON</key>
 		<string>%RECIPE_DIR%/Axure RP %MAJOR_VERSION%.png</string>
 		<key>NAME</key>
 		<string>Axure RP %MAJOR_VERSION%</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Applications</string>
+		<string>Testing</string>
 		<key>POLICY_TEMPLATE</key>
-		<string></string>
+		<string>%RECIPE_DIR%/PolicyTemplate.xml</string>
 		<key>version</key>
 		<string></string>
 	</dict>
@@ -48,11 +52,11 @@ https://github.com/homebysix/auto-update-magic</string>
 				<array>
 					<dict>
 						<key>name</key>
-						<string>Axure RP-update-smart</string>
+						<string>%GROUP_NAME%</string>
 						<key>smart</key>
 						<true/>
 						<key>template_path</key>
-						<string>%RECIPE_DIR%/SmartGroupTemplate.xml</string>
+						<string>%GROUP_TEMPLATE%</string>
 					</dict>
 				</array>
 				<key>policy_category</key>
