@@ -26,6 +26,8 @@
 		<string> Now you can stay connected between meetings with virtual meeting spaces, messaging, file sharing, whiteboards, and even video calling.</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>%NAME%.png</string>
+		<key>pkg_path</key>
+		<string></string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
