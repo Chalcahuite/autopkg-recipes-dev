@@ -20,48 +20,24 @@
 		<dict>
 			<key>Arguments</key>
 			<dict>
-				<key>flat_pkg_path</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%.dmg/%NAME%.pkg</string>
-				<key>destination_path</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%/unpack/</string>
-                <key>purge_destination</key>
-                <true/>
-			</dict>
-			<key>Processor</key>
-			<string>FlatPkgUnpacker</string>
-		</dict>
-		<dict>
-			<key>Arguments</key>
-			<dict>
-				<key>input_plist_path</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%/tmp/webex/%NAME%.app/Contents/Info.plist</string>
-				<key>plist_version_key</key>
-				<string>CFBundleShortVersionString</string>
-			</dict>
-			<key>Processor</key>
-			<string>Versioner</string>
-		</dict>
-		<dict>
-			<key>Arguments</key>
-			<dict>
 				<key>pkg_path</key>
-				<string>%RECIPE_CACHE_DIR%/</string>
+				<string>%RECIPE_CACHE_DIR%/%NAME%.pkg</string>
 				<key>source_pkg</key>
-				<string>%RECIPE_CACHE_DIR%/downloads/%NAME%.dmg/%NAME%.pkg</string>
+				<string>%RECIPE_CACHE_DIR%/downloads/webexapp.dmg/%NAME%.pkg</string>
 			</dict>
 			<key>Processor</key>
 			<string>PkgCopier</string>
 		</dict>
-        <dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
-				<key>input_path</key>
-				<string>%pathname%/%NAME%.app</string>
-				<key>requirement</key>
-				<string>identifier "com.cisco.webexmeetingsapp" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = DE8Y96K9QP</string>
+				<key>flat_pkg_path</key>
+				<string>%RECIPE_CACHE_DIR%/%NAME%.pkg</string>
+				<key>destination_path</key>
+				<string>%RECIPE_CACHE_DIR%/%NAME%/unpack/</string>
 			</dict>
 			<key>Processor</key>
-			<string>CodeSignatureVerifier</string>
+			<string>FlatPkgUnpacker</string>
 		</dict>
 	</array>
 </dict>
