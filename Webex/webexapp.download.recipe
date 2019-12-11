@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads the current version of Cisco's WebExApp.</string>
+	<key>Identifier</key>
+	<string>com.github.grahampugh.recipes.download.Webex</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>webexapp</string>
+		<key>SITE_URL</key>
+		<string>OVERRIDE ME!</string>
+		<key>USER_AGENT</key>
+		<string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:61.0) Gecko/20100101 Firefox/71.0</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>0.6.0</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>re_pattern</key>
+				<string>(https:\/\/.*\/webexapp\.dmg)</string>
+				<key>request_headers</key>
+				<dict>
+					<key>User-Agent</key>
+					<string>%USER_AGENT%</string>
+				</dict>
+				<key>url</key>
+				<string>%SITE_URL%</string>
+			</dict>
+			<key>Processor</key>
+			<string>URLTextSearcher</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>curl_opts</key>
+				<array>
+					<string>--no-buffer</string>
+				</array>
+				<key>filename</key>
+				<string>%NAME%.dmg</string>
+				<key>request_headers</key>
+				<dict>
+					<key>Referrer</key>
+					<string>%SITE_URL%</string>
+					<key>User-Agent</key>
+					<string>%USER_AGENT%</string>
+				</dict>
+				<key>url</key>
+				<string>%match%</string>
+			</dict>
+			<key>Processor</key>
+			<string>URLDownloader</string>
+		</dict>
+		<dict>
+			<key>Processor</key>
+			<string>EndOfCheckPhase</string>
+		</dict>
+	</array>
+</dict>
+</plist>
