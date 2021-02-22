@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of OmniOutliner.</string>
 	<key>Identifier</key>
-	<string>com.github.chalcahuite.download.OmniOutliner</string>
+	<string>com.github.chalcahuite.download.OmniOutliner5</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
