@@ -1,6 +1,6 @@
-Comment: Recipe automatically generated from com.github.rtrouton.pkg.microsoftuniversalonedrive by JamfRecipeMaker
+Comment: Recipe automatically generated from com.github.rtrouton.pkg.microsoftonedrive by JamfRecipeMaker
 Identifier: com.github.autopkg.chalcahuite-recipes.jamf.MicrosoftOneDrive
-ParentRecipe: com.github.rtrouton.pkg.microsoftuniversalonedrive
+ParentRecipe: com.github.rtrouton.pkg.microsoftonedrive
 MinimumVersion: '2.3'
 
 Input:
