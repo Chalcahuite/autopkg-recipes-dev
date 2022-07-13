@@ -1,19 +1,19 @@
-Comment: Recipe automatically generated from com.github.novaksam.pkg.AdobeAcrobatReaderDC by JamfRecipeMaker
+Comment: Recipe automatically generated from local.jss.Adobe Acrobat Reader DC by JamfRecipeMaker
 Identifier: com.github.autopkg.chalcahuite-recipes.jamf.AdobeAcrobatReaderDC
-ParentRecipe: com.github.novaksam.pkg.AdobeAcrobatReaderDC
+ParentRecipe: com.github.autopkg.pkg.AdobeReaderDC
 MinimumVersion: '2.3'
 
 Input:
   NAME: Adobe Acrobat Reader DC
-  CATEGORY: Applications
-  GROUP_NAME: '%NAME%-update-smart'
+  CATEGORY: Digital Media
+  GROUP_NAME: Adobe Acrobat Reader DC-update-smart
   GROUP_TEMPLATE: JamfSmartGroupTemplate.xml
   TESTING_GROUP_NAME: Testing
   POLICY_CATEGORY: Testing
   POLICY_NAME: Install Latest %NAME%
   POLICY_TEMPLATE: JamfPolicyTemplate.xml
   SELF_SERVICE_DISPLAY_NAME: Install Latest %NAME%
-  SELF_SERVICE_DESCRIPTION: 'Views, prints, and comments on PDF documents, and connects to Adobe Document Cloud.'
+  SELF_SERVICE_DESCRIPTION: Views, prints, and comments on PDF documents, and connects to Adobe Document Cloud.
   SELF_SERVICE_ICON: '%NAME%.png'
   UPDATE_PREDICATE: pkg_uploaded == False
 
