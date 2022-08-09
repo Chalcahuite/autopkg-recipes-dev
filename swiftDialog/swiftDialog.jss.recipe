@@ -30,7 +30,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.chalcahuite.pkg.Dialog</string>
+	<string>com.github.chalcahuite.download.Dialog</string>
 	<key>Process</key>
 	<array>
 		<dict>
