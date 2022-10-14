@@ -13,7 +13,7 @@ Input:
   POLICY_NAME: Install Latest %NAME%
   POLICY_TEMPLATE: JamfPolicyTemplate.xml
   SELF_SERVICE_DISPLAY_NAME: Install Latest %NAME%
-  SELF_SERVICE_DESCRIPTION: ''
+  SELF_SERVICE_DESCRIPTION: OneDrive for Business is an integral part of Office 365, and provides place in the cloud where you can store, share, and sync your work files. You can update and share your files from any device with OneDrive for Business. You can even work on Office documents with others at the same time.
   SELF_SERVICE_ICON: '%NAME%.png'
   UPDATE_PREDICATE: pkg_uploaded == False
 

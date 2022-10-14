@@ -13,7 +13,7 @@ Input:
   POLICY_NAME: Install Latest %NAME%
   POLICY_TEMPLATE: JamfPolicyTemplate.xml
   SELF_SERVICE_DISPLAY_NAME: Install Latest %NAME%
-  SELF_SERVICE_DESCRIPTION: ''
+  SELF_SERVICE_DESCRIPTION: Office 365 is a software suite for word processing, spreadsheets, presentations, graphics and more. Includes Excel, OneNote, OneDrive, Outlook, PowerPoint, Word, and Teams.
   SELF_SERVICE_ICON: '%NAME%.png'
   UPDATE_PREDICATE: pkg_uploaded == False
 

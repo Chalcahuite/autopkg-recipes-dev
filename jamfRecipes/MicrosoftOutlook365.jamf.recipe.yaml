@@ -13,7 +13,7 @@ Input:
   POLICY_NAME: Install Latest %NAME%
   POLICY_TEMPLATE: JamfPolicyTemplate.xml
   SELF_SERVICE_DISPLAY_NAME: Install Latest %NAME%
-  SELF_SERVICE_DESCRIPTION: ''
+  SELF_SERVICE_DESCRIPTION: Microsoft Outlook is a comprehensive personal information manager. Although often used as an email app, it also includes a calendar, task manager, contact manager, and many other features.
   SELF_SERVICE_ICON: '%NAME%.png'
   UPDATE_PREDICATE: pkg_uploaded == False
 
