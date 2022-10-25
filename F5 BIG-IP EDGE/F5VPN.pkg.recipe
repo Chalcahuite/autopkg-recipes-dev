@@ -189,17 +189,6 @@ exit $ERROR</string>
             </dict>
          </dict>
          <dict>
-            <key>Processor</key>
-            <string>PkgSigner</string>
-            <key>Arguments</key>
-            <dict>
-               <key>pkg_path</key>
-               <string>%RECIPE_CACHE_DIR%/%PACKAGER%_%VENDOR%_%SOFTWARETITLE%_%version%.pkg</string>
-               <key>signing_cert</key>
-               <string>%SIGNINGCERTIFICATE%</string>
-            </dict>
-         </dict>
-         <dict>
             <key>Arguments</key>
             <dict>
                <key>path_list</key>
