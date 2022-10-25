@@ -5,24 +5,24 @@
       <key>Description</key>
       <string>Downloads the current release version of the F5 Networks BIG-IP Edge Client and builds an installer package.</string>
       <key>Identifier</key>
-      <string>com.company.pkg.f5vpn</string>
+      <string>com.github.chalcahuite.pkg.iboss</string>
       <key>Input</key>
       <dict>
          <key>NAME</key>
-         <string>F5 Networks BIG-IP Edge Client</string>
+         <string>iboss macOS Agent</string>
          <key>VENDOR</key>
-         <string>F5Networks</string>
+         <string>iboss</string>
          <key>SOFTWARETITLE1</key>
-         <string>BIG-IP</string>
+         <string>macOS</string>
          <key>SOFTWARETITLE2</key>
-         <string>Edge</string>
-         <key>SOFTWARETITLE3</key>
-         <string>Client</string>
+         <string>Agent</string>
+         <key>SIGNINGCERTIFICATE</key>
+         <string>SIGNINGCERTIFICATE goes here</string>
       </dict>
       <key>MinimumVersion</key>
       <string>1.0.0</string>
       <key>ParentRecipe</key>
-      <string>com.company.download.f5vpn</string>
+      <string>com.github.chalcahuite.download.iboss</string>
       <key>Process</key>
       <array>
          <dict>
@@ -49,7 +49,7 @@
             <key>Arguments</key>
             <dict>
                <key>pkg_payload_path</key>
-               <string>%RECIPE_CACHE_DIR%/unpack/mac_edgeclient.pkg/Payload</string>
+               <string>%RECIPE_CACHE_DIR%/unpack/gen4agent.pkg/Payload</string>
                <key>destination_path</key>
                <string>%RECIPE_CACHE_DIR%/payload</string>
             </dict>
@@ -64,7 +64,7 @@
             <key>Arguments</key>
             <dict>
                <key>input_plist_path</key>
-               <string>%RECIPE_CACHE_DIR%/payload/BIG-IP Edge Client.app/Contents/Info.plist</string>
+               <string>%RECIPE_CACHE_DIR%/payload/iboss.app/Contents/Info.plist</string>
                <key>plist_version_key</key>
                <string>CFBundleShortVersionString</string>
             </dict>
@@ -143,7 +143,7 @@ exit $ERROR</string>
                <key>source_pkg</key>
                <string>%found_filename%</string>
                <key>pkg_path</key>
-               <string>%RECIPE_CACHE_DIR%/Scripts/mac_edgesvpn.pkg</string>
+               <string>%RECIPE_CACHE_DIR%/Scripts/gen4agent.pkg</string>
             </dict>
          </dict>
          <dict>
@@ -152,7 +152,7 @@ exit $ERROR</string>
             <key>Arguments</key>
             <dict>
                <key>pattern</key>
-               <string>%RECIPE_CACHE_DIR%/%VENDOR%/*.f5c</string>
+               <string>%RECIPE_CACHE_DIR%/%VENDOR%/config.json</string>
             </dict>
          </dict>
          <dict>
@@ -176,7 +176,7 @@ exit $ERROR</string>
                   <key>pkgroot</key>
                   <string>%RECIPE_CACHE_DIR%/pkgroot</string>
                   <key>pkgname</key>
-                  <string>%VENDOR%_%SOFTWARETITLE1%_%SOFTWARETITLE2%_%SOFTWARETITLE3%_%version%</string>
+                  <string>%VENDOR%_%SOFTWARETITLE1%_%SOFTWARETITLE2%_%version%</string>
                   <key>pkgtype</key>
                   <string>flat</string>
                   <key>id</key>
