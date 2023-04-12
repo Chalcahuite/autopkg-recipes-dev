@@ -1,10 +1,10 @@
-Comment: Recipe automatically generated from com.github.jss-recipes.jss.Webex by JamfRecipeMaker
+Comment: Recipe automatically generated from com.github.jss-recipes.jss.Webex-AS by JamfRecipeMaker
 Identifier: com.github.autopkg.chalcahuite-recipes.jamf.Webex
-ParentRecipe: com.github.chalcahuite.pkg.Webex
+ParentRecipe: com.github.chalcahuite.pkg.Webex-AS
 MinimumVersion: '2.3'
 
 Input:
-  NAME: Webex
+  NAME: Webex-AppleSilicon
   CATEGORY: Productivity
   GROUP_NAME: Webex-update-smart
   GROUP_TEMPLATE: JamfSmartGroupTemplate.xml
