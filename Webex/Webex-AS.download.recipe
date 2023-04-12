@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Webex.</string>
 	<key>Identifier</key>
-	<string>com.github.chalcahuite.download.Webex</string>
+	<string>com.github.chalcahuite.download.Webex-AS</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
