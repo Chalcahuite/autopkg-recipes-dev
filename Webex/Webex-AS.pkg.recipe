@@ -11,12 +11,12 @@
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Webex</string>
+		<string>Webex-AppleSilicon</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.chalcahuite.download.Webex</string>
+	<string>com.github.chalcahuite.download.Webex-AS</string>
 	<key>Process</key>
 	<array>
 		<dict>
