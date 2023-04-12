@@ -1,10 +1,10 @@
-Comment: Recipe automatically generated from com.github.jss-recipes.jss.Webex by JamfRecipeMaker
-Identifier: com.github.autopkg.chalcahuite-recipes.jamf.Webex
-ParentRecipe: com.github.chalcahuite.pkg.Webex
+Comment: Recipe automatically generated from com.github.jss-recipes.jss.Webex-Intel by JamfRecipeMaker
+Identifier: com.github.autopkg.chalcahuite-recipes.jamf.Webex-Intel
+ParentRecipe: com.github.chalcahuite.pkg.Webex-Intel
 MinimumVersion: '2.3'
 
 Input:
-  NAME: Webex
+  NAME: Webex-Intel
   CATEGORY: Productivity
   GROUP_NAME: Webex-update-smart
   GROUP_TEMPLATE: JamfSmartGroupTemplate.xml
@@ -16,6 +16,7 @@ Input:
   SELF_SERVICE_DESCRIPTION: ''
   SELF_SERVICE_ICON: '%NAME%.png'
   UPDATE_PREDICATE: pkg_uploaded == False
+  version_key: CFBundleShortVersionString
 
 Process:
 - Processor: com.github.grahampugh.jamf-upload.processors/JamfCategoryUploader
