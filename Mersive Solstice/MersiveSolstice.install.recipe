@@ -5,34 +5,39 @@
 	<key>Comment</key>
 	<string>Created with Recipe Robot v2.2.0 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
-	<string>Downloads the latest version of Solstice and uploads the package to your JSS.</string>
+	<string>Installs the latest version of Solstice.</string>
 	<key>Identifier</key>
-	<string>com.github.chalcahuite.jss-upload.Solstice</string>
+	<string>com.github.chalcahuite.install.SolsticeClient</string>
 	<key>Input</key>
 	<dict>
 		<key>APP_FILENAME</key>
 		<string>Mersive Solstice</string>
-		<key>CATEGORY</key>
-		<string>Productivity</string>
 		<key>NAME</key>
 		<string>Solstice</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.chalcahuite.pkg.Solstice</string>
+	<string>com.github.chalcahuite.download.SolsticeClient</string>
 	<key>Process</key>
 	<array>
 		<dict>
 			<key>Arguments</key>
 			<dict>
-				<key>category</key>
-				<string>%CATEGORY%</string>
-				<key>prod_name</key>
-				<string>%NAME%</string>
+				<key>dmg_path</key>
+				<string>%pathname%</string>
+				<key>items_to_copy</key>
+				<array>
+					<dict>
+						<key>destination_path</key>
+						<string>/Applications</string>
+						<key>source_item</key>
+						<string>Mersive Solstice.app</string>
+					</dict>
+				</array>
 			</dict>
 			<key>Processor</key>
-			<string>JSSImporter</string>
+			<string>InstallFromDMG</string>
 		</dict>
 	</array>
 </dict>
