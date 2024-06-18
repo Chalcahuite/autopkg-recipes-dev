@@ -11,7 +11,7 @@
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Bruno</string>
+		<string>Bruno_%ARCH%</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>2.3</string>

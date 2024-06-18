@@ -20,6 +20,8 @@
 		<dict>
 			<key>Arguments</key>
 			<dict>
+				<key>ARCH</key>
+				<string>arm_or_intel</string>
 				<key>asset_regex</key>
 				<string>.*_%ARCH%_mac\.dmg$</string>
 				<key>github_repo</key>
