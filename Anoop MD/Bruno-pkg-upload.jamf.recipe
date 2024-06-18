@@ -14,6 +14,8 @@
 		<string>Productivity</string>
 		<key>NAME</key>
 		<string>Bruno_%ARCH%</string>
+		<key>pkg_path</key>
+		<string>%RECIPE_CACHE_DIR%/%app_name%_%ARCH-%version%.pkg</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>2.3</string>
