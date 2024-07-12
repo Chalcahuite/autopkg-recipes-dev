@@ -22,5 +22,5 @@ Process:
 
   - Processor: Versioner
     Arguments:
-      input_plist_path: "%pathname%/CADABahn.app/Contents/Info.plist"
+      input_plist_path: "%pathname%/CADABAHN.app/Contents/Info.plist"
       plist_version_key: CFBundleShortVersionString
