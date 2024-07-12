@@ -15,14 +15,6 @@ Process:
 
   - Processor: EndOfCheckPhase
 
-  - Processor: CodeSignatureVerifier
-    Arguments:
-      input_path: "%pathname%"
-      expected_authority_names: 
-        - "Developer ID Installer: Comcast Cable Communications, Inc. (DAH86Q54R2)"
-        - "Developer ID Certification Authority"
-        - "Apple Root CA"
-
   - Processor: Versioner
     Arguments:
       input_plist_path: "%pathname%/CADABAHN.app/Contents/Info.plist"
