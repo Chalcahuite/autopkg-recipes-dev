@@ -1,5 +1,5 @@
 Description: Takes CADAbahn package and 
-Identifier: com.github.chalcahuite-recipes.pkg.CADAbahn
+Identifier: com.github.autopkg.chalcahuite-recipes.pkg.CADAbahn
 MinimumVersion: "2.3"
 
 Input:
