@@ -17,7 +17,7 @@ Process:
 
   - Processor: CodeSignatureVerifier
     Arguments:
-      input_path: "%pathname%/CADABAHN*.*pkg"
+      input_path: "%pathname%"
       expected_authority_names: 
         - "Developer ID Installer: Comcast Cable Communications, Inc. (DAH86Q54R2)"
         - "Developer ID Certification Authority"
