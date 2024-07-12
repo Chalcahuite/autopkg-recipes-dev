@@ -1,0 +1,9 @@
+Description: Takes CADAbahn package and 
+Identifier: com.github.chalcahuite-recipes.pkg.CADAbahn
+MinimumVersion: "2.3"
+
+Input:
+  NAME: CADAbahn
+
+Process:
+  - Processor: AppPkgCreator

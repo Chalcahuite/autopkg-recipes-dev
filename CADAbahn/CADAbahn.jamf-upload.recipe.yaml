@@ -1,5 +1,6 @@
 Comment: Manually created recipe to upload CADAbahn app to Jamf
 Identifier: com.github.autopkg.chalcahuite-recipes.jamf.CADAbahn
+ParentRecipe: com.github.autopkg.chalcahuite-recipes.pkg.CADAbahn
 MinimumVersion: '2.3'
 
 Input:
