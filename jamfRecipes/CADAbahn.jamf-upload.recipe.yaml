@@ -1,0 +1,16 @@
+Comment: Manually created recipe to upload CADAbahn app to Jamf
+Identifier: com.github.autopkg.chalcahuite-recipes.jamf.CADAbahn
+MinimumVersion: '2.3'
+
+Input:
+  NAME: CADAbahn
+  CATEGORY: Utilities
+
+Process:
+- Processor: com.github.grahampugh.jamf-upload.processors/JamfPackageUploader
+  Arguments:
+    category_name: '%CATEGORY%'
+ 
+- Processor: StopProcessingIf
+  Arguments:
+    predicate: '%UPDATE_PREDICATE%'
