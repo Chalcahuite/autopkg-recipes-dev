@@ -13,7 +13,7 @@
 		<key>NAME</key>
 		<string>Webex-AppleSilicon</string>
 		<key>pkg_path</key>
-		<string>%RECIPE_CACHE_DIR%/%NAME%-%version%.pkg</string>
+		<string>%RECIPE_CACHE_DIR%/%app_name%-arm64-%version%.pkg</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
