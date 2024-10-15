@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Comment</key>
-	<string>Recipe automatically generated from com.github.rtrouton.pkg.WindowsApp by JamfRecipeMaker</string>
+	<string>Recipe automatically generated from com.github.wycomco.pkg.windowsapp by JamfRecipeMaker</string>
 	<key>Identifier</key>
 	<string>com.github.chalcahuite.jamf.WindowsApp</string>
 	<key>Input</key>
@@ -15,7 +15,7 @@
 		<key>GROUP_TEMPLATE</key>
 		<string>JamfSmartGroupTemplate.xml</string>
 		<key>NAME</key>
-		<string>Windows App</string>
+		<string>WindowsApp</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Testing</string>
 		<key>POLICY_NAME</key>
@@ -36,7 +36,7 @@
 	<key>MinimumVersion</key>
 	<string>2.3</string>
 	<key>ParentRecipe</key>
-	<string>com.github.rtrouton.pkg.WindowsApp</string>
+	<string>com.github.wycomco.pkg.windowsapp</string>
 	<key>Process</key>
 	<array>
 		<dict>
