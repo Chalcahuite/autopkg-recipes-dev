@@ -16,7 +16,7 @@
 	<key>MinimumVersion</key>
 	<string>2.3</string>
 	<key>ParentRecipe</key>
-	<string>ccom.github.moofit-recipes.pkg.WebexUniversal</string>
+	<string>com.github.moofit-recipes.pkg.WebexUniversal</string>
 	<key>Process</key>
 	<array>
 		<dict>
