@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads latest Rancher Desktop disk image  and builds a package.</string>
     <key>Identifier</key>
-    <string>com.github.chalcachuite-recipes.pkg.RancherDesktop</string>
+    <string>com.github.autopkg.chalcachuite-recipes.pkg.RancherDesktop</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
