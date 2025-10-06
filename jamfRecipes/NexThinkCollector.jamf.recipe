@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Comment</key>
-	<string>Recipe automatically generated from com.github.rtrouton.pkg.NexThinkCollector by JamfRecipeMaker</string>
+	<string>Recipe automatically generated from local.sign.NexThinkCollector by JamfRecipeMaker</string>
 	<key>Identifier</key>
 	<string>com.github.chalcahuite.jamf.NexThinkCollector</string>
 	<key>Input</key>

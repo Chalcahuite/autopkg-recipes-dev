@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Comment</key>
-	<string>Recipe automatically generated from com.github.rtrouton.pkg.NexThinkCollectorUninstaller by JamfRecipeMaker</string>
+	<string>Recipe automatically generated from com.github.rtrouton.sign.NexThinkCollectorUninstaller by JamfRecipeMaker</string>
 	<key>Identifier</key>
 	<string>com.github.chalcahuite.jamf.NexThinkCollectorUninstaller</string>
 	<key>Input</key>
@@ -36,7 +36,7 @@
 	<key>MinimumVersion</key>
 	<string>2.3</string>
 	<key>ParentRecipe</key>
-	<string>com.github.rtrouton.pkg.NexThinkCollectorUninstaller</string>
+	<string>com.github.rtrouton.sign.NexThinkCollectorUninstaller</string>
 	<key>Process</key>
 	<array>
 		<dict>
