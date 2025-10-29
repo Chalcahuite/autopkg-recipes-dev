@@ -30,13 +30,15 @@
 		<string>%NAME%.png</string>
 		<key>TESTING_GROUP_NAME</key>
 		<string>Testing</string>
+		<key>SIGNINGCERTIFICATE</key>
+		<string>Put_Signing_Certificate_into_AutoPkg_recipe_override</string>
 		<key>UPDATE_PREDICATE</key>
 		<string>pkg_uploaded == False</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>2.3</string>
 	<key>ParentRecipe</key>
-	<string>com.github.rtrouton.pkg.NexThinkCollector</string>
+	<string>com.github.rtrouton.sign.NexThinkCollector</string>
 	<key>Process</key>
 	<array>
 		<dict>
