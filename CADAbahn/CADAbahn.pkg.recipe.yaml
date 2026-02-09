@@ -8,3 +8,7 @@ Input:
 
 Process:
   - Processor: AppPkgCreator
+    Arguments: 
+      app_path: "%RECIPE_CACHE_DIR%/%NAME%/unpack/%NAME%.app"
+      pkg_path: "%RECIPE_CACHE_DIR%/%NAME%-%version%.pkg
+      
