@@ -4,7 +4,7 @@ ParentRecipe: com.github.autopkg.chalcahuite-recipes.CADAbahn.download
 MinimumVersion: "2.3"
 
 Input:
-  NAME: CADAbahn
+  NAME: CADABAHN
 
 Process:
   - Processor: AppPkgCreator

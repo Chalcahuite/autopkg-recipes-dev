@@ -15,7 +15,12 @@ Process:
 
   - Processor: EndOfCheckPhase
 
+  - Processor: FlatPkgUnpacker
+    Arguments:
+      flat_pkg_path: "%pathname%"
+      destination_path: "%RECIPE_CACHE_DIR/unpacked"
+
   - Processor: Versioner
     Arguments:
-      input_plist_path: "%pathname%/CADABAHN.app/Contents/Info.plist"
+      input_plist_path: "%RECIPE_CACHE_DIR/unpacked/Payload/Applications/%NAME%.app/Contents/Info.plist"
       plist_version_key: CFBundleShortVersionString
