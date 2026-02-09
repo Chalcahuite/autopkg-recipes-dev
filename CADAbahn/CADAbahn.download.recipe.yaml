@@ -21,7 +21,7 @@ Process:
       destination_path: "%RECIPE_CACHE_DIR%/%NAME%"
       purge_destination: TRUE
 
-  - Processor: PayloadPkgUnpacker
+  - Processor: PkgPayloadUnpacker
     Arguments:
       pkg_payload_path: "%RECIPE_CACHE_DIR%/%NAME%/Payload"
       destination_path: "%RECIPE_CACHE_DIR%/%NAME%/unpack"
