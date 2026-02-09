@@ -1,4 +1,4 @@
-Description: Takes CADAbahn package and 
+Description: Re-packages the CADABAHN app.
 Identifier: com.github.autopkg.chalcahuite-recipes.pkg.CADAbahn
 ParentRecipe: com.github.autopkg.chalcahuite-recipes.CADAbahn.download
 MinimumVersion: "2.3"
@@ -10,5 +10,4 @@ Process:
   - Processor: AppPkgCreator
     Arguments: 
       app_path: "%RECIPE_CACHE_DIR%/%NAME%/unpack/%NAME%.app"
-      pkg_path: "%RECIPE_CACHE_DIR%/%NAME%-%version%.pkg
-      
+      pkg_path: "%RECIPE_CACHE_DIR%/%NAME%-%version%.pkg"
