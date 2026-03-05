@@ -13,7 +13,7 @@ Input:
   POLICY_NAME:  '%NAME%'
   POLICY_TEMPLATE: JamfSelfServiceProd.xml
   SELF_SERVICE_DISPLAY_NAME: '%NAME%'
-  SELF_SERVICE_DESCRIPTION: 
+  SELF_SERVICE_DESCRIPTION: Cross-platform application for configuring any YubiKey over all USB interfaces.
   SELF_SERVICE_ICON: '%NAME%.png'
   UPDATE_PREDICATE: pkg_uploaded == False
 
